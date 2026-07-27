@@ -23,15 +23,15 @@ app.get("/", (req, res, next) => {
         .welcome-text {
           margin-top: 30px;
           text-align: center;
-          font-size: 2rem;      /* 32px */
-          font-weight: 600;
+          font-size: 1.5rem; 
+          font-weight: 400;
           color: #333;
         }
     </style>
      </head>
     <body>
     <p class="welcome-text">
-      Hello world! I'm a Node/Express JS Web Server...
+      Hello world! I'm a Express JS Web Server...
     </p>
     
     </body>
