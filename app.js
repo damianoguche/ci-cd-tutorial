@@ -14,7 +14,9 @@ app.get("/", (req, res, next) => {
       </head>
     </html>
     <body>
-      <p><center>Hello world! I'm a Node/Express JS Web Server...</center></p>
+     <p style="margin-top: 30px; text-align: center;">
+     Hello world! I'm a Node/Express JS Web Server...
+</p>
     </body>
     </html>
     `);

@@ -3,6 +3,7 @@
     "checkJs": true, // Enables type checking for JavaScript files
     "module": "commonjs", // Jest uses CommonJS
     "baseUrl": ".", // Base URL for resolving modules
+    "ignoreDeprecations": "6.0",
     "paths": {
       "jest": ["node_modules/jest"]
     }
