@@ -16,8 +16,8 @@ app.get("/", (req, res, next) => {
     <body>
       <p><center>Hello world! I'm a Node/Express JS Web Server...</center></p>
     </body>
+    </html>
     `);
-  next();
 });
 
 module.exports = app;
